@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('m.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-title {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px;
+}
+
+.info-title {
+    font-weight: bold;
+}
+
+.speed-value {
+    color: #007bff; 
+}
+
+.soc-value {
+    color: #28a745;
+}
+
+.battery-temp-value {
+    color: #dc3545; 
+}
+
+.rsa-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.alerts {
+    margin-top: 20px;
+}
+
+.alerts-title {
+    text-align: center;
+}
+
+.alert-list {
+    list-style: none;
+    padding: 0;
+}
+
+.alert-item {
+    padding: 10px;
+    border: 1px solid #ff6347;
+    background-color: #ffebec;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
